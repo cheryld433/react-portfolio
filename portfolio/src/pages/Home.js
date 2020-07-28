@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 // import navbar
+import Navbar from "../components/Navbar";
 // import home.css
 // import resume 
 
@@ -19,7 +20,7 @@ const Home = () => {
                            {/* To create a flexbox container and to transform direct children 
                            into flex items, use the d-flex class: */}
                            <div className="row subtitle d=flex justify-content-center">
-                               <h5>What goes here?</h5>
+                               <h5>Empty space to make links and navbar to bottom of page</h5>
                            </div>
                            <Row className="d-flex justify-content-center">
                                {/* links to icons for github, linkedIn and my Resume */}
@@ -31,9 +32,9 @@ const Home = () => {
                                </Row>
                            </Row>
                            {/* may use react-reveal on navbar */}
-                           {/* <div lclassName="row-justify-content-center about-Navbar">
+                           <div className="row-justify-content-center about-Navbar">
                                <Navbar />
-                           </div> */}
+                           </div>
                            {/* footer */}
                            <div className="row">
                                <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
