@@ -1,43 +1,22 @@
-import React from 'react';
-import { BrowswerRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
+import React from "react";
+import "../src/App.css"
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-
-// import './App.css';
+import Portfolio from "./pages/Portfolio";
 
 const App = () => {
-  return (
-   <Router>
-     <div>
-       <Navbar />
-       <Switch>
-         <Route exact path={["/", "/react-portfolio"]}>
-           <Home />
-         </Route>
-
-         <Route exact path="/about">
-           <About />
-         </Route>
-
-         <Route exact path="/portfolio">
-         <Portfolio //props={portfolio}  
-         />
-         </Route>
-
-         <Route exact path="/contact">
-           <Contact />
-         </Route>
-
-       </Switch>
-       <Footer />
-     </div>
-
-   </Router>
-  );
+  return(
+    <Router>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />    
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="portfolio" component={Portfolio} />
+      </div>
+    </Router>
+  )
 }
 
 export default App;
