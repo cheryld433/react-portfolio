@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// import navbar
 import Navbar from "../components/Navbar";
-// import home.css
+import "../pages/Home.css";
+import Resume from "../assets/cheryl_daniels.pdf"
 // import resume 
 
 // LOOK INTO REACT-REVEAL FOR ANIMATION OF THE WEBPAGE!!!!!!!
@@ -28,7 +28,7 @@ const Home = () => {
                                    <Col size="xs"><a href="https://github.com/cheryld433"><i className="fab fa-github fa-2x"></i></a></Col>
                                    <Col size="xs"><a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/"></a><i className="fab fa-linkedin fa-2x"></i></Col>
                                    {/* need to add resume file  */}
-                                   {/* <Col size="xs"><a href={Resume} download><i className="fas fa-file fa-2x"></i></a></Col> */}
+                                   <Col size="xs"><a href={Resume} download><i className="fas fa-file fa-2x"></i></a></Col>
                                </Row>
                            </Row>
                            {/* may use react-reveal on navbar */}
@@ -48,7 +48,6 @@ const Home = () => {
   )
 }
 // need to attach resume;
-// need to create Navbar;
 // need to attach css;
 
 
