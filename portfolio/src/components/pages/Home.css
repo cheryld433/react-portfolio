@@ -1,0 +1,43 @@
+/* This file will contain the css file from the original portfolio.
+ (home, about, contact, portfolio) import this file into each page */
+
+ body, html {
+     height: 100%;
+     font-family: "Playfair Display", sans-serif;
+     font-weight: 500;
+ }
+
+ /* add headers as needed */
+ h1 {
+     font-family: "Playfair Display", serif;
+     font-style: italic;
+     font-weight: 600%;
+ }
+
+.home-container {
+    margin: 0 auto;
+    /* need to add different font family */
+    font-family: san-serif; 
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRy4QDOCDRXpnw3Ckyu_w2nnklyYSXm7lazA&usqp=CAUhttps://www.wentzstore.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/f/u/fundo_1845__capa2.jpg") no-repeat;    /* need to add an image */
+    background-size: cover;
+    margin: 0 auto;
+    /* 100vh = 100% view height */
+    height: 100vh
+}
+
+.contact-container {
+    margin: 0 auto; 
+    /* need to add another font-family */
+    font-family: sans-serif; 
+    /* need to add background  */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3602GSBYJKQEfDMbbI0reSHs_WdoUvuBwdQ&usqp=CAU") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.contact-wrapper {
+    /* background: blue; */
+    width: 100%;
+    border: 1px, black;
+}

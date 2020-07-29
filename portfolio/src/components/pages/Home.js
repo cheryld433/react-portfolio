@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Navbar from "../components/Navbar";
-import "../pages/Home.css";
-import Resume from "../assets/cheryl_daniels.pdf"
+import Navbar from "../../components/Navbar";
+import "./Home.css";
+import Resume from "../../assets/cheryl_daniels.pdf";
 // import resume 
 
 // LOOK INTO REACT-REVEAL FOR ANIMATION OF THE WEBPAGE!!!!!!!

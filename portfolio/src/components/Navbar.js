@@ -3,7 +3,7 @@ import {Link } from "react-router-dom";
 // The primary way to allow users to navigate around your application. 
 {/* <Link> will render a fully accessible anchor tag with the proper href. */}
 
-const Navbar = () => {
+const Navbar = (props) => {
     return(
         <div className="navbar-wrapper">
             <ul className="navbar">

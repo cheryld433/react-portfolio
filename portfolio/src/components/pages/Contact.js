@@ -1,16 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Form from"../components/form";
-import Navbar from "../components/Navbar";
-// import style sheet:
+import Form from"../form";
+import Navbar from "../../components/Navbar";
+import "./Home.css";
 
-const Contact =() => {
+const Contact = () => {
     return(
 
         <div>
             <div className="contact-container">
                 <div id="contact-wrapper">
-                    {/* <Row> */}
+                    <Row>
                     {/* possible need to add a row here */}
                     <Row className="contact-title jumbotron-4 justify-content-center">
                         <Col></Col>
@@ -22,7 +22,7 @@ const Contact =() => {
                         </Col>
                         <Col></Col>
                     </Row>
-                    <Row ClassName="Contact-wrapper">
+                    <Row ClassName="contact-wrapper">
                         <Col></Col>
                         {/* Form (name, email, message, submit button) */}
                         <Col xs={6} className="form-wrapper">
@@ -33,7 +33,7 @@ const Contact =() => {
                         </Col>
                         <Col></Col>
                     </Row>
-                    {/* </Row> */}
+                    </Row>
                      {/* Row may end here? */}
                      <Row className="home-nav">
                         <Col></Col>
