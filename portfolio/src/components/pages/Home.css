@@ -12,6 +12,7 @@
      font-family: "Playfair Display", serif;
      font-style: italic;
      font-weight: 600%;
+     font-size: 75px
  }
 
 .home-container {
@@ -30,14 +31,93 @@
     /* need to add another font-family */
     font-family: sans-serif; 
     /* need to add background  */
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3602GSBYJKQEfDMbbI0reSHs_WdoUvuBwdQ&usqp=CAU") no-repeat;
+    background: url("https://imgix.bustle.com/uploads/shutterstock/2020/3/25/72415f8c-3e06-40fc-b5a6-32fd76c7b567-shutterstock-1270572721.jpg?w=1020&h=574&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
 }
 
 .contact-wrapper {
-    /* background: blue; */
     width: 100%;
-    border: 1px, black;
+    /* border: 1px, black; */
+    margin: 0px;
+}
+.form-wrapper {
+    background: white;
+    /* width: 100px; */
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    
+}
+.contact-title {
+    width: 100%;
+    margin: 10px;
+    color: #12343b
+}
+
+.title-wrapper {
+    width: 50%;
+    /* background: white; */
+    margin-top: 40px;
+}
+.form-wrapper button {
+    background: #2d545e;
+    border-radius: 15px;
+    margin-left: 100px;
+    color: white;
+
+}
+.form-group {
+    width: 700px;
+    padding: 20px;
+    margin-right: 435px;
+}
+
+.form-control {
+    margin-left: 225px;
+    /* margin-right: 275px; */
+}
+
+.label {
+    margin-left: 200px;
+}
+.submitBtn {
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.name-title{
+    padding: 400px 0px 0px 0px;
+    color: #12343b;
+}
+.head-title{
+    padding: 50px 0px 0px 0px;
+    background: white;
+}
+.icon {
+    color: #12343b;
+}
+
+.navbar {
+    border-bottom: none;
+    background: none;
+    color: white;
+    /* justify-content: center; */
+}
+
+.navbar-wrapper {
+    margin-top: 20px;
+    margin-left: 225px;
+    background-color: #2d545e;
+    border-radius: 15px;
+    width: 50%;
+}
+a {
+    color: white;
+}
+
+
+.footer {
+    margin-top: 50px;
+    margin-left: 370px;
 }

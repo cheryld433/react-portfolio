@@ -25,7 +25,7 @@ const Contact = () => {
                     <Row ClassName="contact-wrapper">
                         <Col></Col>
                         {/* Form (name, email, message, submit button) */}
-                        <Col xs={6} className="form-wrapper">
+                        <Col xs={8} className="form-wrapper">
                             {/* insert form here */}
                             <Row className="justify-content-center">
                                 <Form />

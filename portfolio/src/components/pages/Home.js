@@ -20,19 +20,19 @@ const Home = () => {
                            {/* To create a flexbox container and to transform direct children 
                            into flex items, use the d-flex class: */}
                            <div className="row subtitle d=flex justify-content-center">
-                               <h5>Empty space to make links and navbar to bottom of page</h5>
+                               {/* <h5>Empty space to make links and navbar to bottom of page</h5> */}
                            </div>
                            <Row className="d-flex justify-content-center">
                                {/* links to icons for github, linkedIn and my Resume */}
                                <Row className="row-icon-row">
-                                   <Col size="xs"><a href="https://github.com/cheryld433"><i className="fab fa-github fa-2x"></i></a></Col>
-                                   <Col size="xs"><a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/"></a><i className="fab fa-linkedin fa-2x"></i></Col>
+                                   <Col size="xs"><a href="https://github.com/cheryld433"><i className="fab fa-github fa-2x icon"></i></a></Col>
+                                   <Col size="xs"><a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/"></a><i className="fab fa-linkedin fa-2x icon"></i></Col>
                                    {/* need to add resume file  */}
-                                   <Col size="xs"><a href={Resume} download><i className="fas fa-file fa-2x"></i></a></Col>
+                                   <Col size="xs"><a href={Resume} download><i className="fas fa-file fa-2x icon"></i></a></Col>
                                </Row>
                            </Row>
                            {/* may use react-reveal on navbar */}
-                           <div className="row-justify-content-center about-Navbar">
+                           <div className="row-justify-content-center about-navbar">
                                <Navbar />
                            </div>
                            {/* footer */}
