@@ -14,6 +14,7 @@ class Form extends React.Component {
         return (
             <form 
             onSubmit={this.submitForm}
+            // look into formspree = user to send email to me without knowing my email address
             // action="https://formspree.io/mzbgjddk" method="POST"
             >
             <div className="form-group">
@@ -34,7 +35,17 @@ class Form extends React.Component {
         );
     }
 
-    // submit Form function:
+    // submit Form function: (possible API call to formspree)
 
+// The XMLHttpRequest object is a developers dream, because you can:
+   // Update a web page without reloading the page
+   // Request data from a server - after the page has loaded
+   // Receive data from a server  - after the page has loaded
+   // Send data to a server - in the background
+
+//    (ev)is the actual click event itself which would tell you if the user clicked 
+// with the right mouse button or left mouse button...etc.
+
+// https://medium.com/@catquarks/making-ajax-requests-with-react-48be0285d396
 }
 export default Form;
