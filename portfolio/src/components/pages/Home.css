@@ -13,11 +13,14 @@ h1 {
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 600%;
-    font-size: 75px;
+    font-size: 40px;
 }
-.contact {
-    margin-left: px;
-}
+
+/* .display-4 {
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+} */
 
 .home-container {
    margin: auto;
@@ -30,14 +33,14 @@ h1 {
    height: 100vh
 }
 .contact-container {
-   margin: 0 auto; 
+   margin: auto; 
    /* need to add another font-family */
    font-family: sans-serif; 
    /* need to add background  */
    background: url("https://imgix.bustle.com/uploads/shutterstock/2020/3/25/72415f8c-3e06-40fc-b5a6-32fd76c7b567-shutterstock-1270572721.jpg?w=1020&h=574&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70") no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   height: 100vh;
+   /* height: 100vh; */
 }
 .portfolio-container {
     margin: auto;
@@ -103,12 +106,15 @@ h1 {
 
 .name-title{
    padding: 400px 0px 0px 0px;
+   font: 40px;
    
 }
 
-.header {
-    margin-left: 725px;
-}
+/* .header {
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+} */
 .head-title{
    padding: 50px 0px 0px 0px;
    background: white;
@@ -126,12 +132,15 @@ h1 {
 }
 
 .navbar-wrapper {
-   margin-top: 50px;
-   margin-left: 240px;
-   margin-right: 760px;
+   margin-top: 8%;
+   margin-left: auto; 
+   margin-right: auto;
+   display: block;
+   padding: 0 3%;
    background-color: #2d545e;
    border-radius: 15px;
    width: 50%;
+
 }
 
 a {
@@ -164,10 +173,10 @@ p {
 .photo-row {
     width: 100%
 }
-.about-navbar2{
+/* .about-navbar2{
     margin-top: 0px;
     margin-left: 225px;
-}
+} */
 
 .content-portfolio {
     min-height: 100vh;
@@ -197,9 +206,7 @@ p {
       margin-left: 260px;
       margin-bottom: 50px;
       margin-top: 30px;
-}
-  
-
+  }
   .carousel-caption i, p, h3, h4, h5, h6{
     color: black;
     background-color: 
@@ -212,13 +219,28 @@ p {
     margin-bottom: 30px;
   }
 
-  .port-Navbar{
-    margin-left: 125px;
-  }
-
-
-
 .footer {
-   margin-top: 50px;
-   margin-left: 479px;
+    display: block;
+   margin-right: auto;
+   margin-left: auto;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }

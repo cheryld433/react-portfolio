@@ -16,7 +16,7 @@ class Form extends React.Component {
             <form 
             onSubmit={this.submitForm}
             // look into formspree = user to send email to me without knowing my email address
-            action="https://formspree.io/cheryld433@gmail.com" method="POST">
+            action="https://formspree.io/xqkynajl" method="POST">
             <div className="form-group">
                 {/* The htmlFor property sets or returns the value of the for attribute of a label. */}
                 {/* The for attribute specifies which form element a label is bound to. */}

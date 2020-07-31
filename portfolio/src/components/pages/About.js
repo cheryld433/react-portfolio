@@ -10,7 +10,7 @@ const About = () => {
             <div id="about-wrapper">
                 <Row>
                     <Row className="about-title jumbotron-4 justify-content-center">
-                        <h1 className="display-4 header">About Me</h1>
+                        <h1 className="display-4">About Me</h1>
                     </Row>
                     <Row className="photo-row justify-content-center">
                         <img className="my-img resize" src={Photo} alt="Cheryl Daniels" /> 
@@ -35,14 +35,15 @@ const About = () => {
                         </Col>
                         <Col></Col>
                     </Row>
-                    <Row className="about-navbar">
-                        <Col></Col>
-                        <Col xs={8} className="about-navbar2">
-                            <Navbar />
-                        </Col>
-                        <Col></Col>
-                    </Row>
                 </Row>
+                    <Row className="home-navbar">
+                                <Col></Col>
+                                <Col xs={12}
+                                    className="justify-content-center">
+                                    <Navbar/>
+                                </Col>
+                                <Col></Col>
+                            </Row>
             </div>
         </div>
     );

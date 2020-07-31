@@ -6,12 +6,12 @@ import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import Portfolio from "./src/components/pages/Portfolio.js";
-// add and import links to portfilio items:
 import Homemade from "../../images/Homemade.png";
 import Notetaker from "../../images/notetaker.png";
 import RedPlanet from "../../images/red-planet.png";
 import WeatherDashboard from "../../images/weather-dashboard.png";
 import FitnessTracker from "../../images/fitness-tracker.png";
+import Burger from "../../images/burger.png";
 import Navbar from "../Navbar";
 import "../pages/Home.css"
 
@@ -33,8 +33,8 @@ const Portfolio = () => {
                                 <Carousel.Caption>
                                     <h3>Homemade</h3>
                                     {/* description of app */}
-                                    <h6>an interactive webpage where you can choose a region of the world 
-                                       we'll provide you with dinner recipes and drinks and some regional music.</h6>
+                                    <h6>An interactive webpage where you can choose a region of the world. This application 
+                                       will provide you with dinner recipes and drinks and some regional music.</h6>
                                     {/* technology used in app */}
                                     <h6>Technologies: Javascript JQuery HTML AJAX SASS Edamam Recipe Search API CocktailDB API Jamendo API</h6>
                                     {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -93,7 +93,7 @@ const Portfolio = () => {
                             </Carousel.Item>
 
                             <Carousel.Item>
-                                <img className="d-block w-100" src={WeatherDashboard} alt="Weather Dashboard"/>
+                                <img className="d-block w-100" src={Burger} alt="Weather Dashboard"/>
 
                                 <Carousel.Caption>
                                     <h3>Weather Dashboard</h3>
@@ -134,18 +134,19 @@ const Portfolio = () => {
                         {/* </ReactBootstrapCarousel> */} 
                     </Row>
                 </Row>
-                <Row className="about-Navbar port-Navbar">
-                    <Col></Col>
-                    <Col xs={3}
-                        className="justify-content-center">
-                        <Navbar/>
-                    </Col>
-                    <Col></Col>
-                </Row>
+                <Row className="home-navbar">
+                                <Col></Col>
+                                <Col xs={12}
+                                    className="justify-content-center">
+                                    <Navbar/>
+                                </Col>
+                                <Col></Col>
+                            </Row>
+            </div>
 
 
             </div>
-        </div>
+        // </div>
     )
 
 }

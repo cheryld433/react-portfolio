@@ -35,13 +35,15 @@ const Contact = () => {
                     </Row>
                     </Row>
                      {/* Row may end here? */}
-                     <Row className="contact-nav">
-                        <Col></Col>
-                        <Col xs={8} className="justify-content-center">
-                            <Navbar />
-                        </Col>
-                        <Col></Col>
-                    </Row>
+                     <Row className="home-navbar">
+                                <Col></Col>
+                                <Col xs={12}
+                                    className="justify-content-center">
+                                    <Navbar/>
+                                </Col>
+                                <Col></Col>
+                            </Row>
+        
                 </div>
             </div>
         </div>
