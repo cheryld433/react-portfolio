@@ -26,15 +26,18 @@ const Home = () => {
                                {/* links to icons for github, linkedIn and my Resume */}
                                <Row className="row-icon-row">
                                    <Col size="xs"><a href="https://github.com/cheryld433"><i className="fab fa-github fa-2x icon"></i></a></Col>
-                                   <Col size="xs"><a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/"></a><i className="fab fa-linkedin fa-2x icon"></i></Col>
+                                   <Col size="xs"><a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/"><i className="fab fa-linkedin fa-2x icon"></i></a></Col>
                                    {/* need to add resume file  */}
                                    <Col size="xs"><a href={Resume} download><i className="fas fa-file fa-2x icon"></i></a></Col>
                                </Row>
                            </Row>
-                           {/* may use react-reveal on navbar */}
-                           <div className="row-justify-content-center about-navbar">
-                               <Navbar />
-                           </div>
+                           <Row className="home-navbar">
+                        <Col></Col>
+                        <Col xs={12} className="justify-content-center">
+                            <Navbar />
+                        </Col>
+                        <Col></Col>
+                    </Row>
                            {/* footer */}
                            <div className="row">
                                <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
@@ -47,8 +50,5 @@ const Home = () => {
 
   )
 }
-// need to attach resume;
-// need to attach css;
-
 
 export default Home;

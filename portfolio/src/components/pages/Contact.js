@@ -15,9 +15,9 @@ const Contact = () => {
                     <Row className="contact-title jumbotron-4 justify-content-center">
                         <Col></Col>
                         {/* title */}
-                        <Col xs={6} className="title-wrapper">
+                        <Col xs={8} className="title-wrapper">
                             <Row className="justify-content-center">
-                                <h1 className="display-4">Contact</h1>
+                                <h1 className="display-4 contact" >Contact</h1>
                             </Row>
                         </Col>
                         <Col></Col>
@@ -35,9 +35,9 @@ const Contact = () => {
                     </Row>
                     </Row>
                      {/* Row may end here? */}
-                     <Row className="home-nav">
+                     <Row className="contact-nav">
                         <Col></Col>
-                        <Col xs={3} className="justify-content-center">
+                        <Col xs={8} className="justify-content-center">
                             <Navbar />
                         </Col>
                         <Col></Col>
