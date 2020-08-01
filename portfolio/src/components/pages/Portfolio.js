@@ -5,13 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-// import Portfolio from "./src/components/pages/Portfolio.js";
 import Homemade from "../../images/Homemade.png";
 import Notetaker from "../../images/notetaker.png";
 import EmployeeDirectory from "../../images/react-directory.png";
 import RedPlanet from "../../images/red-planet.png";
-import WeatherDashboard from "../../images/weather-dashboard.png";
-import FitnessTracker from "../../images/fitness-tracker.png";
+// import WeatherDashboard from "../../images/weather-dashboard.png";
+// import FitnessTracker from "../../images/fitness-tracker.png";
 import BudgetTracker from "../../images/budget-tracker.png";
 import Burger from "../../images/burger.png";
 import Navbar from "../Navbar";
