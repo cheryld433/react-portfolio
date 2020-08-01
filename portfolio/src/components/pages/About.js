@@ -26,9 +26,9 @@ const About = () => {
                                 organization skills, the value of teamwork and reminded me of 
                                 the importance of patience.
                                 I am currently learning full-stack web development at UNC Chapel Hill. 
-                                This program allows me to incorporate my my interest in computers and design. 
-                                Throuhgout the bootamp I am learning several markup languages including HTML, 
-                                CSS, Javascript, Node.js, Express, and MySQL. I am excited to demonstrate my 
+                                This program allows me to incorporate my interest in computers and design. 
+                                Throuhgout the bootcamp I am learning several markup languages including HTML, 
+                                CSS, Javascript, Node.js, Express, and MySQL, MongoDB, and React. I am excited to demonstrate my 
                                 new skills and translate them into a new career in web development. 
                                 This project will be a collection of all the projects that I build along the 
                                 way, I hope you enjoy it.</p>

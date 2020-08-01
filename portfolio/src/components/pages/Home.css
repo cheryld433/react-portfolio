@@ -3,15 +3,15 @@
 
  body, html {
     height: 100%;
-    font-family: "philosopher", sans-serif;
-    font-style: normal;
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
     font-weight: 500;
 }
 
 /* add headers as needed */
 h1 {
     font-family: "Playfair Display", serif;
-    font-style: normal;
+    font-style: italic;
     font-weight: 600%;
     font-size: 40px;
 }
@@ -25,22 +25,29 @@ h1 {
 .home-container {
    margin: auto;
    /* need to add different font family */
-   font-family: "philosopher" sans-serif; 
-   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRy4QDOCDRXpnw3Ckyu_w2nnklyYSXm7lazA&usqp=CAUhttps://www.wentzstore.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/f/u/fundo_1845__capa2.jpg") no-repeat;    /* need to add an image */
+   font-family: "Playfair Display" sans-serif; 
+   background: url("../../images//homeBackground1.png") no-repeat;
+   /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRy4QDOCDRXpnw3Ckyu_w2nnklyYSXm7lazA&usqp=CAUhttps://www.wentzstore.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/f/u/fundo_1845__capa2.jpg") no-repeat;    need to add an image */
    background-size: cover;
    margin: 0 auto;
    /* 100vh = 100% view height */
    height: 100vh
 }
+.about-container {
+    background-color: #dbdbdb;
+    height: 90vh
+
+}
+
 .contact-container {
    margin: auto; 
    /* need to add another font-family */
    font-family: sans-serif; 
    /* need to add background  */
-   background: url("https://imgix.bustle.com/uploads/shutterstock/2020/3/25/72415f8c-3e06-40fc-b5a6-32fd76c7b567-shutterstock-1270572721.jpg?w=1020&h=574&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70") no-repeat;
+   background: url("../../images/contact-background.png") no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   /* height: 100vh; */
+   height: 90vh;
 }
 .portfolio-container {
     margin: auto;
@@ -48,7 +55,7 @@ h1 {
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvxi6rjugb7f7ddm45VujOK8XAt_qDYtJSaw&usqp=CAU") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 90vh; 
 }
 
 .contact-wrapper {
@@ -96,11 +103,13 @@ h1 {
 
 .label {
    margin-left: 200px;
+   font-family: "Playfair Display";
 }
 
 
 .submitBtn {
    margin-left: 500px;
+   font-family: "Playfair Display";
    cursor: pointer;
 }
 
@@ -128,11 +137,12 @@ h1 {
    border-bottom: none;
    background: none;
    color: white;
+   font-family: "Playfair Display";
    /* justify-content: center; */
 }
 
 .navbar-wrapper {
-   margin-top: 8%;
+   margin-top: 2%;
    margin-left: auto; 
    margin-right: auto;
    display: block;
@@ -154,7 +164,9 @@ a {
 p {
     margin-left: 60px;
     margin-right: 100px;
+    font-family: "Playfair Display";
 }
+
 
 .about-wrapper {
     color: #12343b;
@@ -173,17 +185,13 @@ p {
 .photo-row {
     width: 100%
 }
-/* .about-navbar2{
-    margin-top: 0px;
-    margin-left: 225px;
-} */
 
 .content-portfolio {
     min-height: 100vh;
 }
 
 .carousel-item.active{
-    width: 1400px;
+  width: 1400px;
   height: 700px;
   align-content: center;
   border: 1px solid #777777;
@@ -223,6 +231,7 @@ p {
     display: block;
    margin-right: auto;
    margin-left: auto;
+   font-family: "Playfair Display";
 }
 
 /* unvisited link */
