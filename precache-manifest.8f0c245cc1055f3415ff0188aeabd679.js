@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b53d77653f7b5d9cb78d082f672d65dd",
+    "revision": "38160180619e08ff3bca65abfe600a6e",
     "url": "/cheryld433/react-portfolio.git/index.html"
   },
   {
-    "revision": "fe57971df0cf8418e38c",
+    "revision": "97c0066f18e0bbf6ffc0",
     "url": "/cheryld433/react-portfolio.git/static/css/2.2564d3e7.chunk.css"
   },
   {
-    "revision": "1d81924fd7779f8d2441",
-    "url": "/cheryld433/react-portfolio.git/static/css/main.cc085691.chunk.css"
+    "revision": "07e87199149f592f7d56",
+    "url": "/cheryld433/react-portfolio.git/static/css/main.8a0c2787.chunk.css"
   },
   {
-    "revision": "fe57971df0cf8418e38c",
-    "url": "/cheryld433/react-portfolio.git/static/js/2.2e2cf700.chunk.js"
+    "revision": "97c0066f18e0bbf6ffc0",
+    "url": "/cheryld433/react-portfolio.git/static/js/2.1cbc55bf.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/cheryld433/react-portfolio.git/static/js/2.2e2cf700.chunk.js.LICENSE.txt"
+    "url": "/cheryld433/react-portfolio.git/static/js/2.1cbc55bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d81924fd7779f8d2441",
-    "url": "/cheryld433/react-portfolio.git/static/js/main.9dc7550a.chunk.js"
+    "revision": "07e87199149f592f7d56",
+    "url": "/cheryld433/react-portfolio.git/static/js/main.9392a893.chunk.js"
   },
   {
     "revision": "0ef34319c6898d4c84bc",

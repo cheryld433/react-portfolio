@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cheryld433/react-portfolio.git/static/css/main.cc085691.chunk.css",
-    "main.js": "/cheryld433/react-portfolio.git/static/js/main.9dc7550a.chunk.js",
-    "main.js.map": "/cheryld433/react-portfolio.git/static/js/main.9dc7550a.chunk.js.map",
+    "main.css": "/cheryld433/react-portfolio.git/static/css/main.8a0c2787.chunk.css",
+    "main.js": "/cheryld433/react-portfolio.git/static/js/main.9392a893.chunk.js",
+    "main.js.map": "/cheryld433/react-portfolio.git/static/js/main.9392a893.chunk.js.map",
     "runtime-main.js": "/cheryld433/react-portfolio.git/static/js/runtime-main.94edcc6b.js",
     "runtime-main.js.map": "/cheryld433/react-portfolio.git/static/js/runtime-main.94edcc6b.js.map",
     "static/css/2.2564d3e7.chunk.css": "/cheryld433/react-portfolio.git/static/css/2.2564d3e7.chunk.css",
-    "static/js/2.2e2cf700.chunk.js": "/cheryld433/react-portfolio.git/static/js/2.2e2cf700.chunk.js",
-    "static/js/2.2e2cf700.chunk.js.map": "/cheryld433/react-portfolio.git/static/js/2.2e2cf700.chunk.js.map",
+    "static/js/2.1cbc55bf.chunk.js": "/cheryld433/react-portfolio.git/static/js/2.1cbc55bf.chunk.js",
+    "static/js/2.1cbc55bf.chunk.js.map": "/cheryld433/react-portfolio.git/static/js/2.1cbc55bf.chunk.js.map",
     "index.html": "/cheryld433/react-portfolio.git/index.html",
-    "precache-manifest.cab0972e315c982873f59915f39d7c5f.js": "/cheryld433/react-portfolio.git/precache-manifest.cab0972e315c982873f59915f39d7c5f.js",
+    "precache-manifest.8f0c245cc1055f3415ff0188aeabd679.js": "/cheryld433/react-portfolio.git/precache-manifest.8f0c245cc1055f3415ff0188aeabd679.js",
     "service-worker.js": "/cheryld433/react-portfolio.git/service-worker.js",
     "static/css/2.2564d3e7.chunk.css.map": "/cheryld433/react-portfolio.git/static/css/2.2564d3e7.chunk.css.map",
-    "static/css/main.cc085691.chunk.css.map": "/cheryld433/react-portfolio.git/static/css/main.cc085691.chunk.css.map",
-    "static/js/2.2e2cf700.chunk.js.LICENSE.txt": "/cheryld433/react-portfolio.git/static/js/2.2e2cf700.chunk.js.LICENSE.txt",
+    "static/css/main.8a0c2787.chunk.css.map": "/cheryld433/react-portfolio.git/static/css/main.8a0c2787.chunk.css.map",
+    "static/js/2.1cbc55bf.chunk.js.LICENSE.txt": "/cheryld433/react-portfolio.git/static/js/2.1cbc55bf.chunk.js.LICENSE.txt",
     "static/media/Homemade.png": "/cheryld433/react-portfolio.git/static/media/Homemade.1dc17bfc.png",
     "static/media/Me.jpeg": "/cheryld433/react-portfolio.git/static/media/Me.380ea3f9.jpeg",
     "static/media/budget-tracker.png": "/cheryld433/react-portfolio.git/static/media/budget-tracker.7e772f4e.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.94edcc6b.js",
     "static/css/2.2564d3e7.chunk.css",
-    "static/js/2.2e2cf700.chunk.js",
-    "static/css/main.cc085691.chunk.css",
-    "static/js/main.9dc7550a.chunk.js"
+    "static/js/2.1cbc55bf.chunk.js",
+    "static/css/main.8a0c2787.chunk.css",
+    "static/js/main.9392a893.chunk.js"
   ]
 }
