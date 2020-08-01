@@ -22,9 +22,8 @@ const Portfolio = () => {
         <div className="portfolio-container">
             <div className="portfolio-wrapper">
                 <Row>
-                    <Row className="portfolio-title jumbotron-4 justify-contect-center">
-                        <h1 className="display-3 justify-content-center">Portfolio</h1>
-                    </Row>
+                <div class="portfolio-title jumbotron-4 justify-contect-center">
+                    <h1 class="display-3 justify-content-center !important">Portfolio</h1></div>
                     <Row>
                         <div>
                             <br/>
@@ -154,6 +153,10 @@ const Portfolio = () => {
                     </Col>
                     <Col></Col>
                 </Row>
+                {/* footer */}
+                <div className="row">
+                   <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
+                </div>
             </div>
         </div>
     )

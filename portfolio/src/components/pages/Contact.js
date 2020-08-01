@@ -43,6 +43,10 @@ const Contact = () => {
                                 </Col>
                                 <Col></Col>
                             </Row>
+                            {/* footer */}
+                            <div className="row">
+                                <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
+                            </div>
         
                 </div>
             </div>

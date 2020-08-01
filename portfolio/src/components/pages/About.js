@@ -9,9 +9,7 @@ const About = () => {
         <div className="about-container">
             <div id="about-wrapper">
                 <Row>
-                    <Row className="about-title jumbotron-4 justify-content-center">
-                        <h1 className="display-3  contact">About Me</h1>
-                    </Row>
+                <div class="about-title jumbotron-4"><h1 class="display-3  contact">About Me</h1></div>
                     <Row className="photo-row justify-content-center">
                         <img className="my-img resize" src={Photo} alt="Cheryl Daniels" /> 
                  </Row>
@@ -44,6 +42,10 @@ const About = () => {
                                 </Col>
                                 <Col></Col>
                             </Row>
+                            {/* footer */}
+                            <div className="row">
+                                <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
+                            </div>
             </div>
         </div>
     );

@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <HashRouter basename="/">
         <div>
-          <ul>
+          {/* <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-          </ul>
+          </ul> */}
 
           <hr />
   

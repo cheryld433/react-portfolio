@@ -204,18 +204,30 @@ p {
   align-content: center;
   border: 1px solid #777777;
   display: flex;
+  /* position: absolute;  */
+  /* top:0; */
+  /* left: 0; */
+  /* min-width: 100%; */
+  /* height: 100%; */
   } 
 
   .carousel-item.active i{
-    margin-right: 20px;
+   margin-right: 20px; 
+    /* position: absolute;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    height: 100%; */
+
   } 
   
   .carousel-caption{
     background-color: #dbdbdb;
     color: black;
-    margin-left: 20px;
+    max-width: 100%;
     margin-bottom: 20px;
-    /* border: .5px solid #777777; */
+    Height: auto;
+     
   }
   
   .carousel.slide{
@@ -231,9 +243,16 @@ p {
     height: 700px;
   }
   
-  .Carousel{
+  /* .Carousel{
     margin-bottom: 30px;
-  }
+  } */
+
+  @media (max-width: 900px) {
+   .Carousel {
+     width:auto;
+     height:auto;
+   }
+}
 
 .footer {
     display: block;
