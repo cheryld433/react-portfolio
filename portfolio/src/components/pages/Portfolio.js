@@ -23,11 +23,11 @@ const Portfolio = () => {
             <div className="portfolio-wrapper">
                 <Row>
                     <Row className="portfolio-title jumbotron-4 justify-contect-center">
-                        <h1 className="display-4">Portfolio</h1>
+                        <h1 className="display-3 justify-content-center">Portfolio</h1>
                     </Row>
                     <Row>
                         <div>
-                            <br />
+                            <br/>
                         </div>
                     </Row>
                     <Row>
@@ -36,7 +36,6 @@ const Portfolio = () => {
                                 <img className="d-block w-100"
                                     src={EmployeeDirectory}
                                     alt="Notetaker"/>
-
                                 <Carousel.Caption>
                                     <h3>React Employee Directory</h3>
                                     <h6>In this assignment I created an employee directory with React. The requirements
@@ -44,17 +43,14 @@ const Portfolio = () => {
                                     component state, and respond to user events. The user will be able to view the 
                                     entire employee directoroy, sort by name and search by name.</h6>
                                     {/* <h6>Technologies: Express</h6> */}
-                                    {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
                                     <a href="https://cheryld433.github.io/employee-tracker-react/" target="_blank">
                                         <i className="fab fa-github"></i>
                                     </a>
                                     {/* <a href="https://note-taker-14482.herokuapp.com/" target="_blank">
                                         <i className="fa fa-external-link"></i>
-                                    </a> */} </Carousel.Caption>
+                                    </a> */} 
+                                </Carousel.Caption>
                             </Carousel.Item>
-
 
                             <Carousel.Item>
                                 <img className="d-block w-100"
@@ -62,38 +58,26 @@ const Portfolio = () => {
                                     alt="Homemade website"/>
                                 <Carousel.Caption>
                                     <h3>Homemade</h3>
-                                    {/* description of app */}
                                     <h6>An interactive webpage where you can choose a region of the world. This application 
-                                    will provide you with dinner recipes and drinks and some regional music.</h6>
-                                    {/* technology used in app */}
+                                        will provide you with dinner recipes and drinks and some regional music.</h6>
                                     {/* <h6>Technologies: Javascript JQuery HTML AJAX SASS Edamam Recipe Search API CocktailDB API Jamendo API</h6> */}
-                                    {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
                                     <a href="https://cheryld433.github.io/HomeMade/" target="_blank">
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    {/* <a href="" target="" ><i className="fa fa-external-link"></i></a> */} </Carousel.Caption>
+                                </Carousel.Caption>
                             </Carousel.Item>
-
 
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={RedPlanet}
                                     alt="Red Planet Voyagers"/>
-
                                 <Carousel.Caption>
                                     <h3>Red Planet</h3>
-                                    {/* description of app */}
                                     <h6>Looking to vacation to Mars? Check the weather for your stay before you go! 
-                                    Red Planet Voyagers, your daily dose of Mars info. View weather trends, 
-                                    forecast, and data charts. View photos for a more enticing visit and view 
-                                    upcoming launch dates!</h6>
-                                    {/* technology used in app */}
+                                        Red Planet Voyagers, your daily dose of Mars info. View weather trends, 
+                                        forecast, and data charts. View photos for a more enticing visit and view 
+                                        upcoming launch dates!</h6>
                                     {/* <h6>Technologies: </h6> */}
-                                    {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
                                     <a href="https://github.com/cheryld433/Red-Planet-Voyagers.git" target="_blank">
                                         <i className="fab fa-github"></i>
                                     </a>
@@ -107,17 +91,12 @@ const Portfolio = () => {
                                 <img className="d-block w-100"
                                     src={BudgetTracker}
                                     alt="Weather Dashboard"/>
-
                                 <Carousel.Caption>
                                     <h3>Budget Tracker</h3>
-                                    {/* description of app */}
-                                    {/* technology used in app */}
                                     <p>With this application the user will be able to track their withdrawals and 
-                                    deposits with or without a data/internet connection. When traveling the 
-                                    users account balance is accurate. When entering transactions offline, 
-                                    the app will populate the total when back online.</p>
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
+                                       deposits with or without a data/internet connection. When traveling the 
+                                        users account balance is accurate. When entering transactions offline, 
+                                        the app will populate the total when back online.</p>
                                     {/* <a href="https://cheryld433.github.io/Weather-Dashboard/" target="blank">
                                         <i className="fab fa-github"></i>
                                     </a> */}
@@ -126,6 +105,7 @@ const Portfolio = () => {
                                     </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
+
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={Notetaker}
@@ -133,13 +113,9 @@ const Portfolio = () => {
 
                                 <Carousel.Caption>
                                     <h3>Note Taker</h3>
-                                    {/* description of app */}
-                                    {/* technology used in app */}
                                     <p>This aplication is a server side application using Express.js. With this 
-                                    application the client can write, save, and delete notes. The information 
-                                    is saved and retrieved from a JSON file.</p>
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
+                                        application the client can write, save, and delete notes. The information 
+                                        is saved and retrieved from a JSON file.</p>
                                     {/* <a href="https://cheryld433.github.io/Weather-Dashboard/" target="blank">
                                         <i className="fab fa-github"></i>
                                     </a> */}
@@ -149,7 +125,6 @@ const Portfolio = () => {
                                 </Carousel.Caption>
                             </Carousel.Item>
 
-
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={Burger}
@@ -157,13 +132,9 @@ const Portfolio = () => {
 
                                 <Carousel.Caption>
                                     <h3>Burger</h3>
-                                    {/* description of app */}
-                                    {/* technology used in app */}
                                     <p>This application is an exercise in Model View Controller to structure 
-                                    the code base. This application is a simple application for building 
-                                    a burger and devouring it. In this application I created a homemade ORM file.</p>
-                                    {/* link to the github repo */}
-                                    {/* link to the deployed app */}
+                                        the code base. This application is a simple application for building 
+                                        a burger and devouring it. In this application I created a homemade ORM file.</p>
                                     {/* <a href=" https://github.com/cheryld433/workout_tracker.git" target="_blank">
                                         <i className="fab fa-github"></i>
                                     </a> */}
@@ -173,7 +144,6 @@ const Portfolio = () => {
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
-
                     </Row>
                 </Row>
                 <Row className="home-navbar">

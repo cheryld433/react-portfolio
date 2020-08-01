@@ -10,14 +10,14 @@ const About = () => {
             <div id="about-wrapper">
                 <Row>
                     <Row className="about-title jumbotron-4 justify-content-center">
-                        <h1 className="display-4">About Me</h1>
+                        <h1 className="display-3  contact">About Me</h1>
                     </Row>
                     <Row className="photo-row justify-content-center">
                         <img className="my-img resize" src={Photo} alt="Cheryl Daniels" /> 
                  </Row>
                     <Row className="about-text">
                         <Col></Col>
-                        <Col md={8}>
+                        <Col md={8} className="title-wrapper">
                             <p>I have always enjoyed learing new things, just last year I 
                                 taught myself how to flip houses. This experience gave me the 
                                 opportunity to work on my creative side. I was able to take a 

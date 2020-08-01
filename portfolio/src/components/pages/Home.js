@@ -1,11 +1,12 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
+import Slide from "react-reveal/Slide";
 import Navbar from "../../components/Navbar";
 import "./Home.css";
 import Resume from "../../assets/cheryl_daniels.pdf";
-// import resume
 
-// LOOK INTO REACT-REVEAL FOR ANIMATION OF THE WEBPAGE!!!!!!!
+
+
 const Home = () => {
     return (
         <div className="home-container">
@@ -13,9 +14,12 @@ const Home = () => {
                 <div className="home-wrapper">
                     <div className="row">
                         <div className="col-12">
+                            
                             <div className="row name-title jumbotron-4 justify-content-center">
                                 {/* possible reveal affect here */}
-                                <h1 className="display-4">Cheryl Daniels</h1>
+                                <Slide left>
+                                <h1 className="display-3">Cheryl Daniels</h1>
+                                </Slide>
                             </div>
                             {/* To create a flexbox container and to transform direct children 
                            into flex items, use the d-flex class: */}

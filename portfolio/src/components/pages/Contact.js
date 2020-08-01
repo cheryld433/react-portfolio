@@ -17,12 +17,12 @@ const Contact = () => {
                         {/* title */}
                         <Col xs={8} className="title-wrapper">
                             <Row className="justify-content-center">
-                                <h1 className="display-4 contact" >Contact</h1>
+                                <h1 className="display-3 contact" >Contact</h1>
                             </Row>
                         </Col>
                         <Col></Col>
                     </Row>
-                    <Row ClassName="contact-wrapper">
+                    <Row className="contact-wrapper">
                         <Col></Col>
                         {/* Form (name, email, message, submit button) */}
                         <Col xs={8} className="form-wrapper">

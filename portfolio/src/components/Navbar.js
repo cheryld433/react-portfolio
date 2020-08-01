@@ -1,9 +1,9 @@
 import React from "react";
 import {Link } from "react-router-dom";
 // The primary way to allow users to navigate around your application. 
-{/* <Link> will render a fully accessible anchor tag with the proper href. */}
+// {/* <Link> will render a fully accessible anchor tag with the proper href. */}
 
-const Navbar = (props) => {
+const Navbar = () => {
     return(
         <div className="navbar-wrapper">
             <ul className="navbar">
@@ -23,7 +23,7 @@ const Navbar = (props) => {
                     </Link>
                 </li>
                 <li className="navbar-item">
-                    <Link to="/contact" ClassName={window.location.pathname === "/portfolio" ? "navbar-link active" : "navbar-link"}>
+                    <Link to="/contact" className={window.location.pathname === "/portfolio" ? "navbar-link active" : "navbar-link"}>
                         Contact
                     </Link>               
                 </li>
