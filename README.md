@@ -1,3 +1,3 @@
 # react-portfolio
 
-![demo](demo.png)
+![demo](../src/images/demo.png)
