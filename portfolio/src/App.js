@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import "../src/App.css"
+import "./App.css"
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 import { HashRouter, Route, Link } from "react-router-dom";
-import Home from "./components/pages/Home.js";
+import Home from "./components/pages/Home.js.js";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <HashRouter basename="/">
         <div>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-          </ul>
+//           <ul>
+//             <li><Link to="/">Home</Link></li>
+//             <li><Link to="/about">About</Link></li>
+//           </ul>
 
           <hr />
   
