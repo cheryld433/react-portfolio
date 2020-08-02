@@ -22,8 +22,9 @@ const Portfolio = () => {
         <div className="portfolio-container">
             <div className="portfolio-wrapper">
                 <Row>
-                <div class="portfolio-title jumbotron-4 justify-contect-center">
-                    <h1 class="display-3 justify-content-center !important">Portfolio</h1></div>
+                    <div className="portfolio-title jumbotron-4 justify-contect-center">
+                        <h1 className="display-3 justify-content-center">Portfolio</h1>
+                    </div>
                     <Row>
                         <div>
                             <br/>
@@ -34,7 +35,7 @@ const Portfolio = () => {
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={EmployeeDirectory}
-                                    alt="Notetaker"/>
+                                    alt="Employee Directory"/>
                                 <Carousel.Caption>
                                     <h3>React Employee Directory</h3>
                                     <h6>In this assignment I created an employee directory with React. The requirements
@@ -89,7 +90,7 @@ const Portfolio = () => {
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={BudgetTracker}
-                                    alt="Weather Dashboard"/>
+                                    alt="Budget Tracker"/>
                                 <Carousel.Caption>
                                     <h3>Budget Tracker</h3>
                                     <p>With this application the user will be able to track their withdrawals and 
@@ -108,7 +109,7 @@ const Portfolio = () => {
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={Notetaker}
-                                    alt="Weather Dashboard"/>
+                                    alt="Notetaker"/>
 
                                 <Carousel.Caption>
                                     <h3>Note Taker</h3>
@@ -127,7 +128,7 @@ const Portfolio = () => {
                             <Carousel.Item>
                                 <img className="d-block w-100"
                                     src={Burger}
-                                    alt="Fitness Tracker"/>
+                                    alt="Burger website"/>
 
                                 <Carousel.Caption>
                                     <h3>Burger</h3>
@@ -153,10 +154,10 @@ const Portfolio = () => {
                     </Col>
                     <Col></Col>
                 </Row>
-                {/* footer */}
-                <div className="row">
-                   <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
-                </div>
+                    {/* footer */}
+                    <div className="row">
+                                <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Cheryl Daniels</p>
+                            </div>
             </div>
         </div>
     )
