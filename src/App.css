@@ -40,3 +40,6 @@ ul {
     transform: rotate(360deg);
   }
 }
+.carouse-control-prev {
+  background-color: black
+}

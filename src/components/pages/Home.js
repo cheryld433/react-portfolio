@@ -3,7 +3,7 @@ import {Col, Row} from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import Navbar from "../../components/Navbar";
 import "./Home.css";
-import Resume from "../../assets/cheryl_daniels.pdf";
+import Resume from "../../assets/cheryldaniels-resume.pdf";
 
 
 

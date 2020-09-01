@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import BeyondNotes from "../../images/beyond-notes.png"
 import Homemade from "../../images/Homemade.png";
 import Notetaker from "../../images/notetaker.png";
 import EmployeeDirectory from "../../images/react-directory.png";
@@ -64,6 +65,24 @@ const Portfolio = () => {
                                     <a href="https://cheryld433.github.io/HomeMade/" target="_blank">
                                         <i className="fab fa-github"></i>
                                     </a>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className="d-block w-100"
+                                    src={BeyondNotes}
+                                    alt="Beyond Notes website"/>
+                                <Carousel.Caption>
+                                    <h3>Beyond Notes</h3>
+                                    <h6>Beyond Notes is designed for anyone who is looking for an organizational 
+                                        tool to store notes, organize and plan events, and save the information 
+                                        to their profile.</h6>
+                                    {/* <h6>Technologies: Javascript JQuery HTML AJAX SASS Edamam Recipe Search API CocktailDB API Jamendo API</h6> */}
+                                    <a href="https://github.com/team4project3/BeyondNotes.git" target="_blank">
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://beyondnotes.herokuapp.com/" target="_blank">
+                                        <i className="fa fa-external-link"></i>
+                                        </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
